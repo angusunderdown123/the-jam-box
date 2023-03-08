@@ -5,11 +5,12 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+
   }
   
   /* Header styles */
   header {
-    background-color: #d50e0ec2;
+    background-color: #fffefec2;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -41,40 +42,70 @@ body {
   }
   
   nav a:hover {
-    color: #f00;
+    padding: 10px;
+    background-color: lightgray;
   }
   
   /* Main styles */
   main {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+
   }
   
   section {
     margin: 50px 0;
   }
-  
+
+  h1 {
+    font-size: 120px;
+    padding-bottom: 25px;
+    margin-top: 450px;
+    margin-bottom: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+   
+    opacity: 100%;
+
+
+  }
+
+  h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
   h2 {
-    font-size: 24px;
+    font-size: 72px;
     margin-bottom: 20px;
     color: #333;
   }
   
+  p {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
   ul {
-    list-style: disc;
+    list-style: armenian;
     margin-left: 20px;
+    
   }
   
   li {
     margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   form label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
   }
   
   form input,
@@ -101,5 +132,34 @@ body {
     background-color: #fff;
     color: #f00;
     border: 2px solid #f00;
+ }
+
+ * {
+    box-sizing: border-box;
   }
   
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .topsection {
+    max-width: 2000px;
+    max-height: 950px;
+    background-image:url('apple-gc903727b5_1920.jpg');
+    background-size: cover;
+    margin: 0% auto;
+    padding: 20px;
+    filter: grayscale(15%);
+
+   
+    
+   }
