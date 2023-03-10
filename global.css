@@ -15,13 +15,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
   }
   
   header h1 {
     margin: 0;
     font-size: 36px;
     color: #333;
+    
   }
   
   nav ul {
@@ -29,16 +30,19 @@ body {
     padding: 0;
     list-style: none;
     display: flex;
+    text-align: center;
   }
   
   nav li {
     margin: 0 10px;
+    align-items: center;
   }
   
   nav a {
     text-decoration: none;
     color: #333;
     transition: all 0.3s ease-in-out;
+    text-align: center;
   }
   
   nav a:hover {
@@ -60,9 +64,9 @@ body {
 
   h1 {
     font-size: 120px;
-    padding-bottom: 25px;
-    margin-top: 450px;
-    margin-bottom: 450px;
+    padding: 25px;
+    margin-top: 200px;
+    margin-bottom: 150px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: #ffffff;
@@ -86,6 +90,8 @@ body {
   
   p {
     font-size: 24px;
+    color: #333;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
@@ -154,12 +160,39 @@ body {
   .topsection {
     max-width: 2000px;
     max-height: 950px;
-    background-image:url('apple-gc903727b5_1920.jpg');
+    background-image:url('assets/apple-gc903727b5_1920.jpg');
     background-size: cover;
     margin: 0% auto;
-    padding: 20px;
+    padding: 15px;
     filter: grayscale(15%);
+  }
 
+   .centerh2 {
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+
+   }
    
+   .floorplan {
+    transform: rotate(270deg);
+   }
+
+   .customerper {
+    transform: rotate(90deg);
+    border: 5px thin #555;
+   }
+
+   .plansbg {
+    background-color: #d3d3d3;
+   }
+
+   .headerplans {
+    background-color: #fffefec2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
    }
